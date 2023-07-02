@@ -1,0 +1,19 @@
+{
+  "name": "playground-basic",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "vite-plugin-html-transformer": "workspace:*",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.3.4",
+    "vite": "^4.3.9"
+  }
+}
