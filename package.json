@@ -8,7 +8,9 @@
     "lint:eslint": "eslint \"packages/**/*.{ts,tsx}\" --fix",
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
-    "test": "vitest"
+    "test": "vitest",
+    "publish": "pnpm publish --filter vite-plugin-html-transformer",
+    "publish:dry": "pnpm publish --dry-run --filter vite-plugin-html-transformer"
   },
   "author": "Benny Guo",
   "license": "MIT",
